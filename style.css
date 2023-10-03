@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: url(./pexels-lexi-lauwers-2921137.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.479);
+  border-radius: 7px;
+  width: 25rem;
+  height: 28rem;
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+*/
+  margin-top: 16rem;
+  padding: 2em 1.8em;
+  color: white;
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+}
+.container h1 {
+  text-align: center;
+}
+.input1 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.534);
+  width: 100%;
+  outline: none;
+  caret-color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.password {
+  margin-left: 4.3em;
+}
+button {
+  /* padding: 3% 45%; */
+  width: 100%;
+  height: 5vh;
+  /* font-weight: bold; */
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 1em;
+  background-color: white;
+}
+button:hover {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.164);
+  color: white;
+  transition: 0.3s ease;
+}
+p {
+  text-align: center;
+  margin-top: 0.5em;
+}
